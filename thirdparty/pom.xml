@@ -15,6 +15,7 @@
 
   <properties>
     <caffeine.version>2.3.0</caffeine.version>
+    <ignite.version>1.7.0</ignite.version>
   </properties>
 
   <dependencies>
@@ -66,6 +67,18 @@
           <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.ignite</groupId>
+      <artifactId>ignite-core</artifactId>
+      <version>${ignite.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.ignite</groupId>
+      <artifactId>ignite-spring</artifactId>
+      <version>${ignite.version}</version>
     </dependency>
   </dependencies>
 
